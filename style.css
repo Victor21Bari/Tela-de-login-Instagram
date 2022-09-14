@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background: #FAFAFA;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-celular {
+    width: 450px;
+}
+
+.imagens{
+    position: relative;
+}
+
+.imagem-celular{
+    position: absolute;
+    left: 153px;
+    top: 26px;
+    height: 525px;
+    transition:2s ease-in-out;
+}
+
+.logo-app{
+    width: 150px;
+}
+
+.container-itens {
+    width: 350px;
+}
+
+.insta-logo{
+    margin-bottom: 20px;
+}
+
+.container-form {
+    border: 1px solid #dbdbdb;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 40px 20px 40px;
+}
+
+input {
+    height: 40px;
+    outline: none;
+    margin-top: 5px;
+    border: 1px solid #dbdbdb;
+    padding-left: 5px;
+    color: #262626;
+}
+
+button {
+    background: #0095f6;
+    color: white;
+    display: block;
+    padding: 7px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.login-facebook {
+    color: #385185;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    margin: 20px 0px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.esqueceu-senha {
+    text-align: center;
+    font-size: 12px;
+    color: #385185;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+.container-cadastro {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #dbdbdb;
+    margin: 20px 0px;
+    padding: 20px 0px;
+}
+
+.link-cadastro{
+    color: #0095f6;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.paragrafo-conta{
+    font-size: 14px;
+}
+
+.paragrafo-app{
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.container-app{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+
+
+@media only screen and (max-width:720px){
+    #container{
+        flex-direction: column;
+    }
+
+    .imagens{
+        display: none;
+    }
+}
